@@ -2,40 +2,6 @@
 
 This repository contains two projects: `Producer` and `Consumer`, both of which demonstrate how to use Kafka with .NET.
 
-## Project Structure
-kafka-dotnet-getting-started/
-├── .gitignore
-├── kafka-dotnet-getting-started.sln
-├── README.md
-├── Producer/
-│   ├── bin/
-│   │   └── Debug/
-│   │       └── net8.0/
-│   ├── obj/
-│   │   ├── Debug/
-│   │   │   └── net8.0/
-│   │   ├── Producer.csproj.nuget.dgspec.json
-│   │   ├── Producer.csproj.nuget.g.props
-│   │   ├── Producer.csproj.nuget.g.targets
-│   │   ├── project.assets.json
-│   │   └── project.nuget.cache
-│   ├── Producer.csproj
-│   └── Program.cs
-└── consumer/
-    ├── bin/
-    │   └── Debug/
-    │       └── net8.0/
-    ├── obj/
-    │   ├── Debug/
-    │   │   └── net8.0/
-    │   ├── Consumer.csproj.nuget.dgspec.json
-    │   ├── Consumer.csproj.nuget.g.props
-    │   ├── Consumer.csproj.nuget.g.targets
-    │   ├── project.assets.json
-    │   └── project.nuget.cache
-    ├── Consumer.csproj
-    └── Program.cs
-
 ## Prerequisites
 
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
