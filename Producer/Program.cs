@@ -1,5 +1,4 @@
 ﻿using Confluent.Kafka;
-using System;
 
 class Producer {
     static void Main(string[] args)
